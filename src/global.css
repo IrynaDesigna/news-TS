@@ -16,12 +16,36 @@ header h1 {
 footer {
     height: 100px;
     display: flex;
+    color: #fff;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+#links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+footer path {
+    fill: #333;
+}
+#logo {
+    width: 90px;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+footer a:hover {
+    color: #555;
+}
 footer .copyright {
-    font-size: 14px;
     color: #333;
+    font-size: 14px;
     text-align: center;
 }
 footer .copyright a {
